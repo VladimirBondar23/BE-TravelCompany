@@ -1,0 +1,23 @@
+# virtual env
+.venv/
+venv/
+env/
+
+# database
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# env (do not commit secrets)
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
